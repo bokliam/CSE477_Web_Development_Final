@@ -1,0 +1,8 @@
+{
+  "autoload": {
+    "psr-4": {"game\\": "game"}
+  },
+  "require": {
+    "phpunit/phpunit": "^6"
+  }
+}

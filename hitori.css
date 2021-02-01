@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+body {
+    background-color: #18453B;
+    margin-top: 0.5em;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    background-color: beige;
+}
+
+form p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+form input[type="submit"] {
+    font-size: 1.25em;
+    width: 10em;
+}
+
+form button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: 0 auto 0 auto;
+}
+
+td {
+	position: relative;
+	border: thin solid black;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	height: 1.5em;
+	width: 1.5em;
+	font-size: 2em;
+}
+
+button {
+	font-size: 1em;
+	height: 100%;
+	width: 100%;
+}
+
+.shaded {
+	background-color: black;
+	color: white;
+}
+
+.shaded button {
+	color: white;
+}
+
+.unshaded button {
+	border: 2px solid black;
+	border-radius: 1.5em;
+}
+
+.wrong {
+	background-color: #FD6C6E;
+}
+
+.wrong button {
+	color: black;
+}
+
